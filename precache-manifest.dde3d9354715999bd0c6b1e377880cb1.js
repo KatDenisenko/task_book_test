@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "d980e2004da6371e58b1",
+    "revision": "b17b57d7c154c1763686",
     "url": "/task_book_test/static/css/main.2739338a.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/media/outline-icons.ad97afd3.ttf"
   },
   {
-    "revision": "d980e2004da6371e58b1",
-    "url": "/task_book_test/static/js/main.d980e200.chunk.js"
+    "revision": "b17b57d7c154c1763686",
+    "url": "/task_book_test/static/js/main.b17b57d7.chunk.js"
   },
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/task_book_test/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
     "url": "/task_book_test/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/task_book_test/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/task_book_test/static/media/icons.b87b9ba5.ttf"
   },
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/css/2.0ee51630.chunk.css"
   },
   {
-    "revision": "55cc09f993c1756165ca28f9fb5ad87c",
+    "revision": "fe62a18bc516172427ae6502d5edbd71",
     "url": "/task_book_test/index.html"
   }
 ];
