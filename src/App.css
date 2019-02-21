@@ -1,0 +1,26 @@
+.pagination {
+  margin: auto;
+  width: fit-content;
+}
+
+.taskBoardTitle {
+  margin: auto;
+  text-align: center; 
+}
+
+ .mainForm {
+  margin: auto;
+  width:1024px;
+}
+
+.userInfo {
+  margin:auto;
+  display:flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.signInRefer {
+  color:blue;
+  cursor:pointer;
+}
