@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "601a180fc42bbabfc52f",
+    "revision": "312e9fb24974b23b0eb8",
     "url": "/task_book_test/static/css/main.26e25d2e.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/media/outline-icons.701ae6ab.eot"
   },
   {
-    "revision": "601a180fc42bbabfc52f",
-    "url": "/task_book_test/static/js/main.601a180f.chunk.js"
+    "revision": "312e9fb24974b23b0eb8",
+    "url": "/task_book_test/static/js/main.312e9fb2.chunk.js"
   },
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
@@ -64,20 +64,20 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/task_book_test/static/media/brand-icons.c5ebe0b3.ttf"
-  },
-  {
-    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
-    "url": "/task_book_test/static/media/icons.b87b9ba5.ttf"
-  },
-  {
     "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
     "url": "/task_book_test/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/task_book_test/static/media/brand-icons.13db00b7.eot"
+  },
+  {
+    "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
+    "url": "/task_book_test/static/media/icons.b87b9ba5.ttf"
+  },
+  {
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/task_book_test/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/task_book_test/static/css/2.0ee51630.chunk.css"
   },
   {
-    "revision": "af732bab3804b41b4a642aea8baffacc",
+    "revision": "cfad8fbeb0fb79c2af2c461e0edd3c5f",
     "url": "/task_book_test/index.html"
   }
 ];
