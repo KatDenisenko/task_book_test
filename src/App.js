@@ -79,7 +79,7 @@ class App extends Component {
   }
 
   editTaskFunc=(e)=>{
-    // console.log(e.target.dataset.id);
+    console.log(e.target.dataset.id);
     let idEdited=+e.target.dataset.id;
     let arr =[]
     if (this.props.sortedTasks.tasks) {
@@ -89,6 +89,8 @@ class App extends Component {
     }
     // console.log(arr);
     let editedObj = arr.find(el=>el.id===idEdited);
+    console.log(editedObj);
+    // console.log(editedObj)
     this.setState ({
       editedObj:editedObj,
     })

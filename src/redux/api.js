@@ -33,17 +33,22 @@ export function postTask(userName, email,text) {
     options).then(data=>data.json());
 
 }     
+export function fixedEncodeURIComponent (str) {
+    return encodeURIComponent(str).replace(/[!'()*]/g, function(c) {
+      return '%' + c.charCodeAt(0).toString(16);
+    });
+  }
 
 export function postEdit(obj) {
     
     const token="beejee";
     const allData = 
-    encodeURIComponent("status") + "=" + 
-    encodeURIComponent(+obj.status) + 
-    "&" + encodeURIComponent("text") + "="+
-    encodeURIComponent(obj.text) +
-     "&" + encodeURIComponent("token") +"="+ 
-     encodeURIComponent(token);
+    fixedEncodeURIComponent("status") + "=" + 
+    fixedEncodeURIComponent(+obj.status) + 
+    "&" + fixedEncodeURIComponent("text") + "="+
+    fixedEncodeURIComponent(obj.text) +
+     "&" + fixedEncodeURIComponent("token") +"="+ 
+     fixedEncodeURIComponent(token);
 
     const hash = md5(allData);
    
@@ -61,7 +66,6 @@ export function postEdit(obj) {
 
     return fetch(`https://uxcandy.com/~shapoval/test-task-backend/edit/${+obj.id}?developer=Kate.`, options).then(data=>data.json())
     // .then(res=>console.log(res));
-
   }
 
 
